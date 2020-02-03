@@ -14,18 +14,24 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            //- img.thumbnail(src='https://placehold.it/550x350') - Done
+            img.thumbnail(src='/static/img/AlanLongcoyPhoto550x350.png')
           .cell.auto
 
-            //- Add your name here.
+            //- Add your name here. - Done
             h5 Alan Longcoy
 
             //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
-              | Description
+              | Hello there and welcome to my personal portfolio site! 
+              | <br>
+              | <br>
+              | I am a programmer with a thirst for knowledge who loves to develop eloquent and efficient
+              | applications for my clients. If you have a moment, pull up a seat and let me tell you more
+              | about myself!
 
             //- Add about page route to the href below. 
-            a(href='') Learn More →
+            a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
@@ -33,7 +39,7 @@ html(class="no-js" lang="en" dir="ltr")
           button.menu-icon(type='button', data-toggle='my-info')
 
           //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          span.title-bar-title Alan Longcoy
       block content
         
 

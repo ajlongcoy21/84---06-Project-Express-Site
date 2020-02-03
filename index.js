@@ -13,6 +13,16 @@ app.set('view engine', 'pug');
 
 const mainRoutes = require('./routes/main');
 
+app.use(mainRoutes);
+
+app.use((req, res, next) => {
+
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+
+});
+
 app.listen(3000 , () => {
 
     console.log('The express site application is running on localhost:3000!');
