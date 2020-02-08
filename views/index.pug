@@ -21,33 +21,8 @@ block content
       
       //- Here's what the Pug for each project example should look like. 
 
-      .cell
-        a(href='#')
-          img.thumbnail(src='/static/img/01RandomQuoteGenerator550x550.png')
-          h5 Random Quote Generator
-
-      .cell
-        a(href='#')
-          img.thumbnail(src='/static/img/02ListAndPagination550x550.png')
-          h5 List and Pagination
-
-      .cell
-        a(href='#')
-          img.thumbnail(src='/static/img/03InteractiveForm550x550.png')
-          h5 Interactive Form
-
-      .cell
-        a(href='#')
-          img.thumbnail(src='/static/img/04PhraseHunter550x550.png')
-          h5 OOP Game - Phrase Hunter
-
-      .cell
-        a(href='#')
-          img.thumbnail(src='/static/img/05PublicAPIRequests550x550.png')
-          h5 API Requests
-
-      .cell
-        a(href='#')
-          img.thumbnail(src='/static/img/06iOSApp550x550.png')
-          h5 Battleground Debrief
-      
+      each project in portfolioProjects
+        .cell
+          a(href='#')
+            img.thumbnail(src=`${project.image_urls[0]}`)
+            h5= project.project_name

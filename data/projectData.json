@@ -1,59 +1,74 @@
 {
-    "projects": 
-    [
-        {
-            "id": 0,
-            "project_name": "Random Quote Generator",
-            "description": "",
-            "technologies": [],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": []
-        },
-        {
-            "id": 1,
-            "project_name": "Lists and Pagination",
-            "description": "",
-            "technologies": [],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": []
-        },
-        {
-            "id": 2,
-            "project_name": "Interactive Form",
-            "description": "",
-            "technologies": [],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": []
-        },
-        {
-            "id": 3,
-            "project_name": "Object Oriented Programming Game - Phrase Hunter",
-            "description": "",
-            "technologies": [],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": []
-        },
-        {
-            "id": 4,
-            "project_name": "Public API Requests",
-            "description": "",
-            "technologies": [],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": []
-        },
-        {
-            "id": 5,
-            "project_name": "Battleground Debrief",
-            "description": "",
-            "technologies": [],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": []
-        }
-    ]
+    "data":
+    {
+        "projects": 
+        [
+            {
+                "id": 0,
+                "project_name": "Random Quote Generator",
+                "description": "This project shows the user random quotes from an array using basic use and knowledge of HTML & CSS including Javascript.",
+                "technologies": ["HTML", "CSS", "Javascript", "Loops", "Arrays", "Objects"],
+                "live_link": "https://ajlongcoy21.github.io/43---01-Project---Random-Quote-Generator/",
+                "github_link": "https://github.com/ajlongcoy21/43---01-Project---Random-Quote-Generator",
+                "image_urls": [
+                    "/static/img/01RandomQuoteGenerator550x550.png"
+                ]
+            },
+            {
+                "id": 1,
+                "project_name": "Lists and Pagination",
+                "description": "",
+                "technologies": [],
+                "live_link": "",
+                "github_link": "",
+                "image_urls": [
+                    "/static/img/02ListAndPagination550x550.png"
+                ]
+            },
+            {
+                "id": 2,
+                "project_name": "Interactive Form",
+                "description": "",
+                "technologies": [],
+                "live_link": "",
+                "github_link": "",
+                "image_urls": [
+                    "/static/img/03InteractiveForm550x550.png"
+                ]
+            },
+            {
+                "id": 3,
+                "project_name": "Object Oriented Programming Game - Phrase Hunter",
+                "description": "",
+                "technologies": [],
+                "live_link": "",
+                "github_link": "",
+                "image_urls": [
+                    "/static/img/04PhraseHunter550x550.png"
+                ]
+            },
+            {
+                "id": 4,
+                "project_name": "Public API Requests",
+                "description": "",
+                "technologies": [],
+                "live_link": "",
+                "github_link": "",
+                "image_urls": [
+                    "/static/img/05PublicAPIRequests550x550.png"
+                ]
+            },
+            {
+                "id": 5,
+                "project_name": "Battleground Debrief",
+                "description": "",
+                "technologies": [],
+                "live_link": "",
+                "github_link": "",
+                "image_urls": [
+                    "/static/img/06iOSApp550x550.png"
+                ]
+            }
+        ]
+    }
 }
