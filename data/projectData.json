@@ -5,68 +5,94 @@
         [
             {
                 "id": 0,
+                "typeIOS": true,
+                "project_name": "Battleground Debrief",
+                "description": "Battleground Debrief is a stats tracker app for Playerunkown's Battleground on PC, XBOX, and Playstation created by a player for the players. You can search stats by season, game mode, or individual game. There are user settings to have a default user and friends list to monitor their stats as well. With the feature of the 2-D Replay, you can perform a post match debrief and work on developing your battle tactics.",
+                "technologies": ["Swift", "Classes", "UI/UX Design", "Delegation", "MVC", "Table Views", "GCD", "Asynchronous Networking"],
+                "live_link": "https://apps.apple.com/us/app/battleground-debrief/id1448630038",
+                "github_link": "",
+                "image_urls": [
+                    "/static/img/06iOSApp550x550.png",
+                    "/static/img/06iOSApp1200x550A.png",
+                    "/static/img/06iOSApp1200x550B.png",
+                    "/static/img/06iOSApp1200x550C.png"
+                ]
+            },
+            {
+                "id": 1,
+                "typeWeb": true,
+                "project_name": "Public API Requests",
+                "description": "This project is an app to demonstrate a working prototype for an employee directory. We used the Random User Generator API (https://randomuser.me/) to get information for 12 random people and we use that data to build a fake directory example. With the JSON object from the API we display the people in a grid with their thumbnail image, full name, email, and location. To get more detailed information (birthday, address, etc.) all that needs to be done is clicking on the persons image/cell and a modal popup appears with the information.",
+                "technologies": ["HTML", "CSS", "Javascript", "jQuery", "HTTP", "AJAX", "API Integration"],
+                "live_link": "https://ajlongcoy21.github.io/79---05-Project---Public-API-Requests/",
+                "github_link": "https://github.com/ajlongcoy21/79---05-Project---Public-API-Requests",
+                "image_urls": [
+                    "/static/img/05PublicAPIRequests550x550.png",
+                    "/static/img/05PublicAPIRequests1200x550A.png",
+                    "/static/img/05PublicAPIRequests1200x550B.png",
+                    "/static/img/05PublicAPIRequests1200x550C.png"
+                ]
+            },
+            {
+                "id": 2,
+                "typeWeb": true,
+                "project_name": "OOP Game - Phrase Hunter",
+                "description": "This project is a browser-based, word guessing game: 'Phrase Hunter'. The game starts by selecting a random, hidden phrase, which the player tries to guess, by clicking letters on an onscreen keyboard or with their keyboard keys. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the gameboard displays the chosen letters on the screen. The player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose). Players can only guess a letter once.",
+                "technologies": ["HTML", "CSS", "OOP Javascript", "jQuery", "Callback Functions"],
+                "live_link": "https://ajlongcoy21.github.io/75---04-Project---OOP-Game-Show-App/",
+                "github_link": "https://github.com/ajlongcoy21/75---04-Project---OOP-Game-Show-App",
+                "image_urls": [
+                    "/static/img/04PhraseHunter550x550.png",
+                    "/static/img/04PhraseHunter1200x550A.png",
+                    "/static/img/04PhraseHunter1200x550B.png",
+                    "/static/img/04PhraseHunter1200x550C.png",
+                    "/static/img/04PhraseHunter1200x550D.png"
+                ]
+            },
+            {
+                "id": 3,
+                "typeWeb": true,
+                "project_name": "Interactive Form",
+                "description": "This project uses JavaScript and jQuery to enhance an interactive registration form for a fictional conference. Implementation of customized and conditional interactivity to assist the user in filling out the form helps bring a great user experience. Some of the features included are: dynamic showing/hiding of form input fields, form validation, and error messages.",
+                "technologies": ["HTML", "CSS", "Javascript", "jQuery", "Form Input", "Form Validation", "Regex"],
+                "live_link": "https://ajlongcoy21.github.io/58---03-Project---Interactive-Form/",
+                "github_link": "https://github.com/ajlongcoy21/58---03-Project---Interactive-Form",
+                "image_urls": [
+                    "/static/img/03InteractiveForm550x550.png",
+                    "/static/img/03InteractiveForm1200x550A.png",
+                    "/static/img/03InteractiveForm1200x550B.png",
+                    "/static/img/03InteractiveForm1200x550C.png",
+                    "/static/img/03InteractiveForm1200x550D.png"
+                ]
+            },
+            {
+                "id": 4,
+                "typeWeb": true,
+                "project_name": "Lists and Pagination",
+                "description": "This project utilizes a web development technique known as 'pagination' to enhance the user experience with the exploring the information. There is a list of 54 student names, photos and email addresses. With JavaScript code, 10 students are displayed at a time and a navigation system is added to the bottom of the page. The concept of 'progressive enhancement' was used so even if JavaScript is turned off on the user browser, all students will still display correctly. ",
+                "technologies": ["HTML", "CSS", "Unobtrusive Javascript", "Pagination", "Links" , "Loops", "Arrays", "Objects"],
+                "live_link": " https://ajlongcoy21.github.io/50---02-Project---List-Pagination-and-Filtering/",
+                "github_link": "https://github.com/ajlongcoy21/50---02-Project---List-Pagination-and-Filtering",
+                "image_urls": [
+                    "/static/img/02ListAndPagination550x550.png",
+                    "/static/img/02ListAndPagination1200x550A.png",
+                    "/static/img/02ListAndPagination1200x550B.png",
+                    "/static/img/02ListAndPagination1200x550C.png"
+                ]
+            },
+            {
+                "id": 5,
+                "typeWeb": true,
                 "project_name": "Random Quote Generator",
                 "description": "This project shows the user random quotes from an array using basic use and knowledge of HTML & CSS including Javascript.",
                 "technologies": ["HTML", "CSS", "Javascript", "Loops", "Arrays", "Objects"],
                 "live_link": "https://ajlongcoy21.github.io/43---01-Project---Random-Quote-Generator/",
                 "github_link": "https://github.com/ajlongcoy21/43---01-Project---Random-Quote-Generator",
                 "image_urls": [
-                    "/static/img/01RandomQuoteGenerator550x550.png"
-                ]
-            },
-            {
-                "id": 1,
-                "project_name": "Lists and Pagination",
-                "description": "",
-                "technologies": [],
-                "live_link": "",
-                "github_link": "",
-                "image_urls": [
-                    "/static/img/02ListAndPagination550x550.png"
-                ]
-            },
-            {
-                "id": 2,
-                "project_name": "Interactive Form",
-                "description": "",
-                "technologies": [],
-                "live_link": "",
-                "github_link": "",
-                "image_urls": [
-                    "/static/img/03InteractiveForm550x550.png"
-                ]
-            },
-            {
-                "id": 3,
-                "project_name": "Object Oriented Programming Game - Phrase Hunter",
-                "description": "",
-                "technologies": [],
-                "live_link": "",
-                "github_link": "",
-                "image_urls": [
-                    "/static/img/04PhraseHunter550x550.png"
-                ]
-            },
-            {
-                "id": 4,
-                "project_name": "Public API Requests",
-                "description": "",
-                "technologies": [],
-                "live_link": "",
-                "github_link": "",
-                "image_urls": [
-                    "/static/img/05PublicAPIRequests550x550.png"
-                ]
-            },
-            {
-                "id": 5,
-                "project_name": "Battleground Debrief",
-                "description": "",
-                "technologies": [],
-                "live_link": "",
-                "github_link": "",
-                "image_urls": [
-                    "/static/img/06iOSApp550x550.png"
+                    "/static/img/01RandomQuoteGenerator550x550.png",
+                    "/static/img/01RandomQuoteGenerator1200x550A.png",
+                    "/static/img/01RandomQuoteGenerator1200x550B.png",
+                    "/static/img/01RandomQuoteGenerator1200x550C.png"
                 ]
             }
         ]
