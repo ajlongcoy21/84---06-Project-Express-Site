@@ -4,6 +4,8 @@ const cookieParser = require('cookie-parser');
 
 const app = express();
 
+var port = process.env.PORT || 3000;
+
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 
@@ -23,7 +25,7 @@ app.use((req, res, next) => {
 
 });
 
-app.listen(3000 , () => {
+app.listen(port , () => {
 
     console.log('The express site application is running on localhost:3000!');
 
