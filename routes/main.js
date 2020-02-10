@@ -6,9 +6,6 @@ const portfolioProjects = data.projects;
 router.get('/',(req, res) => {
     
     res.render('index', {portfolioProjects: portfolioProjects});
-    console.log("here now");
-    console.log(portfolioProjects[0].image_urls[0]);
-        
     
 });
 
