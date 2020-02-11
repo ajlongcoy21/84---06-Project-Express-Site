@@ -1,6 +1,7 @@
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+  font-style: italic;
 }
 
   h5{
@@ -118,7 +119,8 @@ a:hover{
 }
 
   .portfolio-index .thumbnail{
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px lightgray;
   }
 
   .portfolio-index a{
@@ -129,9 +131,14 @@ a:hover{
     margin-bottom: 15px;
   }
 
-    .portfolio-index .cell h5{
-      letter-spacing: 1px;
-    }
+  .portfolio-index .cell :hover{
+
+    transform: scale(1.05);
+  }
+
+  .portfolio-index .cell h5{
+    letter-spacing: 1px;
+  }
 
 .portfolio-meta{
   padding-left: 20px;
