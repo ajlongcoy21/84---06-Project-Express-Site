@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+    title Alan Longcoy
+    link(rel="stylesheet", href="/static/stylesheets/style.css")
+  body
+    section
+        h1= `Error Message: ${error.message}`
+        h1= `Status: ${error.status}`
+        h1= `Error Stack:`
+        p= error.stack
+        p
+        a.button-primary-small(href='/') Back to Homepage

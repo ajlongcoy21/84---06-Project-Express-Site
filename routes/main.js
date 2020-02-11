@@ -17,7 +17,22 @@ router.get('/about',(req, res) => {
 
 router.get('/project/:id', (req, res) => {
 
-    const { id } = req.params;
+    req.params.id = Number(req.params.id);
+    const id = req.params.id;
+
+    console.log('This is the project ID:');    
+    console.log(id);
+    
+    if (id > portfolioProjects.length) 
+    {
+        const err = new Error('Project Index Invalid');
+        err.status = 404;
+
+        res.locals.error = err;
+        res.status(err.status);
+
+        res.render('error');    
+    }
 
     res.render('project', {project: portfolioProjects[id]});
     
